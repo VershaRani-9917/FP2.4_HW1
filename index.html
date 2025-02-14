@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <label for="all">
+      <input type="radio" id="all" value="all" name="status" checked /> all
+    </label>
+    <label for="todo">
+      <input type="radio" id="todo" value="todo" name="status" /> todo
+    </label>
+    <label for="inProgress">
+      <input type="radio" id="inProgress" value="inProgress" name="status" />
+      inProgress
+    </label>
+    <label for="completed">
+      <input type="radio" id="completed" value="completed" name="status" />
+      completed
+    </label>
+    <script src="script.js"></script>
+
+    <ul id="taskList"></ul>
+  </body>
+</html>
